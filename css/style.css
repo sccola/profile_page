@@ -1,0 +1,9 @@
+span.text-bold {
+    font-weight: bold;
+    width: 10em;
+    float: left;
+}
+
+p#about-me {
+    max-width: 30em;
+}
