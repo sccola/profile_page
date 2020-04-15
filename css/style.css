@@ -1,5 +1,32 @@
+html {
+    font-family: helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: cornflowerblue;
+
+}
+
+.container {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border: 1px solid white;
+}
+
 header {
     text-align: center;
+}
+
+main {
+    min-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 span.text-bold {
@@ -8,10 +35,19 @@ span.text-bold {
     float: left;
 }
 
+#profile {
+
+}
+
 p#about-me {
-    max-width: 30em;
+    max-width: 25em;
+    text-align: center;
 }
 
 img {
     max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
 }
+
+
