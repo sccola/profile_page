@@ -79,14 +79,17 @@ button {
     width: 100%;
     white-space: nowrap;
     text-transform: uppercase;
-    font-size: .875rem;
     text-align: center;
     padding: 0.5em ;
     margin-top: 0;
     font-weight: 700;
     border-radius: 0.5em;
     margin: 0;
-}   
+}
+
+button:hover {
+    cursor: pointer;
+}
 
 header {
     text-align: center;
@@ -105,6 +108,7 @@ span.text-bold {
 p#about-me {
     max-width: 25em;
     text-align: center;
+    margin-top: -0.5em;
 }
 
 #img-box {
@@ -118,4 +122,14 @@ img {
     max-width: 80%;
     border-radius: 50%;
     margin-bottom: 1em;
+}
+
+@media screen and (max-width: 30em){
+    #body {
+        font-size: 0.8em;
+    }
+    
+    #biodata {
+        font-size: 0.75em;
+    }
 }
